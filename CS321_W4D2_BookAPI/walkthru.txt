@@ -31,3 +31,13 @@
 1. Move the Models folder from BookAPI into Core. You can delete the Class1.cs file that was added by default.
 1. Move the Services folder from BookAPI into Core.
 1. Try building the project. It should compile successfully. If you run it, though, you may get an error because we haven't created the database yet.
+1. Let's get the database set up. 
+   1. In your terminal, CD into the Infrastructure project folder. We want our migrations folder to be created in that project.
+   1. Create the initial migration:
+      > dotnet ef migrations add Initial
+   1. Update the database:
+      > dotnet ef database update
+1. Open the BookContext class. Double-check the UseSqlite() method to make sure that it has a valid path to the books.db database file.
+```csharp
+             optionsBuilder.UseSqlite("Data Source=../CS321_W4D2_BookAPI.Data/books.db");
+```
