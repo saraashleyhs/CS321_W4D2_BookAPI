@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using CS321_W4D2_BookAPI.Core.Models;
 using CS321_W4D2_BookAPI.Core.Services;
 
-namespace CS321_W4D2_BookAPI.Data
+namespace CS321_W4D2_BookAPI.Infrastructure.Data
 {
     public class AuthorRepository : IAuthorRepository
     {

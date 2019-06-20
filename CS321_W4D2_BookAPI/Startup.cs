@@ -1,4 +1,4 @@
-﻿using CS321_W4D2_BookAPI.Data;
+﻿using CS321_W4D2_BookAPI.Infrastructure.Data;
 using CS321_W4D2_BookAPI.Core.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

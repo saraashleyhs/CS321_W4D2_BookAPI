@@ -2,7 +2,7 @@
 using CS321_W4D2_BookAPI.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CS321_W4D2_BookAPI.Data
+namespace CS321_W4D2_BookAPI.Infrastructure.Data
 {
     public class BookContext : DbContext
     {
