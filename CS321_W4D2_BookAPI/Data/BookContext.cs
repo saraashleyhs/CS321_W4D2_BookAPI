@@ -16,7 +16,7 @@ namespace CS321_W4D2_BookAPI.Infrastructure.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // TODO: use optionsBuilder to configure a Sqlite db
-            optionsBuilder.UseSqlite("Data Source=../CS321_W4D2_BookAPI.Data/books.db");
+            optionsBuilder.UseSqlite("Data Source=../CS321_W4D2_BookAPI.Infrastructure/books.db");
         }
 
         // This method runs once when the DbContext is first used.
